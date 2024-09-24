@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: bisque;
+}
+.hero {
+  width: 100vw;
+  height: 80vh;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hero-text {
+  text-align: center;
+  color: white;
+}
+.hero-text-heading {
+  font-size: 50px;
+  font-weight: 100;
+  margin: 0;
+}
+.hero-text-heading::selection {
+  color: yellow;
+}
+.hero-text-heading::after {
+  content: " using after psuedo element";
+  color: #fb8b8b;
+  font-size: 10px;
+}
+@media screen and (min-width: 780px) {
+  .hero-text-heading {
+    font-size: 100px;
+  }
+  .hero-text-heading::after {
+    font-size: 20px;
+  }
+}
+.hero-text-subheading {
+  font-size: 20px;
+  margin: 0px;
+  letter-spacing: 1px;
+}
+.hero .btn {
+  background-color: red;
+  height: 50px;
+  width: 80px;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 15px;
+  border: none;
+}
+.hero .btn:hover {
+  background-color: #ff6666;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+@media screen and (min-width: 780px) {
+  .container {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+.alert-blue {
+  height: 30px;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: #6a6af0;
+  color: #1616de;
+  font-size: 16px;
+  text-align: center;
+}
+.alert-blue:hover {
+  background-color: #f5f5fe;
+}
+.alert--red {
+  height: 30px;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: red;
+  color: #990000;
+  font-size: 16px;
+  text-align: center;
+}
+.alert--red:hover {
+  background-color: #ff9999;
+}
+.alert--green {
+  height: 30px;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: green;
+  color: #001a00;
+  font-size: 16px;
+  text-align: center;
+}
+.alert--green:hover {
+  background-color: #1aff1a;
+}
+.alert--cyan {
+  height: 30px;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: cyan;
+  color: #009999;
+  font-size: 16px;
+  text-align: center;
+}
+.alert--cyan:hover {
+  background-color: #99ffff;
+}

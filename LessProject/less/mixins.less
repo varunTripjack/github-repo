@@ -1,0 +1,19 @@
+// mixins for alert box skleton
+.alert--physical--properties(){
+    // width: 300px;
+    height: 30px;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+//mixin for alert box appeance
+.alert--physical--appearance(@bg-color, @font-size){
+    background-color: @bg-color;
+    color: darken(@bg-color, 20%);
+    font-size: @font-size;
+    text-align: center;
+    &:hover{
+        background-color: lighten(@bg-color, 30%);
+    }
+}
