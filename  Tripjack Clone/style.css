@@ -1,0 +1,829 @@
+@font-face {
+    font-family: "trip-500";
+    src: url("./MuseoSans_500.ttf");
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cbox{
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: 0 100px; */
+    /* justify-content: center; */
+}
+
+.navbar{
+    border-bottom: 1px solid #F2F4F7;
+}
+
+.navbar__container{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 7px;
+    
+}
+
+.navbar__container__logo{
+    width: 150px;
+
+}
+
+.navbar__container__menu{
+    display: flex;
+    align-items: center;
+}
+
+.navbar__container__menu__items{
+    list-style: none;
+    /* margin-left: 20px; */
+    font-family: "trip-500";
+    color: #999999;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 9px 15px;
+}
+
+
+
+/* banner  */
+
+/* .banner{
+    background-color: red;
+} */
+
+.banner__box{
+    width: 33.3%;
+}
+
+.banner__container{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.banner--img{
+    width: 100%;
+}
+
+.banner__box--heading{
+    font-size: 34px;
+    text-align: center;
+    line-height: 1.3;
+    padding: 25px 0;
+    color: #000;
+    width: 50%;
+}
+
+.banner__grid{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 15px 23px;
+    width: 50%;
+}
+
+.banner__grid--item{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__grid__data--subtitle{
+    text-align: center;
+}
+
+.banner__grid__data--img{
+    width: 50%%;
+}
+
+.banner__grid__data--subtitle{
+    padding: 6px 0px;
+}
+
+
+.banner__login{
+    width: 33.3%;
+    height: 100%;
+    padding: 15px 15px 0px 15px;
+    font-family: "trip-500";
+    /* width: 33.3%; */
+}
+
+
+
+.banner__login--heading{
+    font-size: 22px;
+    padding-top: 10px;
+    
+}
+
+.banner__login--para{
+    color: #B2B2B2;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.banner__supplier{
+    padding: 20px 0px;
+    display: flex;
+    gap: 20px;
+}
+
+.banner__supplier--agent{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: "trip-500";
+    color: #B2B2B2;
+
+}
+
+.banner__supplier--bar{
+    height: 5px;
+    border-radius: 5px;
+    /* background-color: orange; */
+    margin-top: 6px;
+}
+
+.banner__supplier__container:hover .banner__supplier--bar{
+    background-color: orange;
+}
+
+
+.banner__form{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.form--field{
+    height: 35px;
+    border: none;
+    font-size: 18px;
+    padding: 6px;
+}
+
+.form--btn{
+    height: 35px;
+    background-color: orange;
+    border: none;
+    font-size: 18px;
+    padding: 4px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+.banner__questions{
+    padding: 16px 0px;
+}
+
+.banner__questions__question{
+    padding: 10px 0px;
+    display: flex;
+    gap: 5px;
+}
+
+.banner__question--ques{
+    font-size: 14px;
+    color: #B2B2B2;
+    font-family: "trip-500";
+}
+
+
+.banner__question--solution--a{
+    font-size: 14px;
+    color: orange;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* business */
+.business{
+    padding-top: 3rem;
+}
+
+.container{
+    /* margin: 0 57px; */
+    padding: 0px 15px;
+    font-size: 16px;
+    font-family: "trip-500";
+}
+
+.container__content{
+    display: flex;
+}
+
+.container--heading{
+    margin: 0 0 16px;
+    font-size: 32px;
+    font-family: "trip-500";
+    color: #333333;
+}
+
+.container__content__left{
+    /* padding: 0 15px; */
+    width: 46%;
+    
+}
+
+.container__content--para{
+    font-family: "trip-500";
+    padding: 10px 0px;
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.row{
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 0px 15px;
+}
+
+.row__first{
+    display: flex;
+    flex-direction: column;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 0 15px;
+}
+
+.element{
+    display: flex;
+    padding: 10px 0;
+}
+
+
+.element__content{
+    font-size: 16px;
+    font-family: "trip-500";
+    padding: 0 0 0 8px;
+    color: #212529;
+}
+
+.element__content-heading{
+    font-size: 20px;
+    font-family: "trip-500";
+    color: #324253;
+}
+
+.element__content-para{
+    font-size: 12px;
+    font-family: "trip-500";
+    padding: 5px 0 0;
+    color: #999999;
+}
+
+.business__img{
+    height: 330px;
+}
+
+
+/* advantages */
+
+.adv{
+    padding: 48px 15px 0px;
+    /* margin: 0px 53px; */
+    border: 1px solid red;
+}
+
+/* .adv__header{
+    text-align: center;
+    margin: auto;
+} */
+
+.adv__header--heading{
+    font-size: 32px;
+    font-family: "trip-500";
+    color: #333333;
+    text-align: center;
+}
+
+.adv__row{
+    padding: 24px 0px 0px;
+    display: flex;
+}
+
+.adv__col{
+    padding: 0px 15px;
+    margin: 0px -15px;
+}
+
+.adv__content{
+    padding: 24px 0px 0px;
+    display: flex;
+}
+
+.adv__img{
+    width: 90px;
+    margin-right: 15px;
+}
+
+.adv__content--heading{
+    font-size: 18px;
+    font-family: "trip-500";
+    margin: 0px 0px 8px;
+    color: #333333;
+}
+
+.adv__content--para{
+    color: #666666;
+    font-size: 14px;
+    font-family: "trip-500";
+}
+
+/* contact */
+.contact{
+    background-color: #F4F8FC;
+    padding: 48px 0px;
+    border: 1px solid black;
+    /* background-color: rgb(197, 197, 248); */
+}
+
+/* .container{
+    margin: 0 57px;
+    padding: 0px 15px;
+    font-size: 16px;
+    font-family: "trip-500";
+} */
+
+.contact_work{
+    padding: 0px 30px;
+    width: 50%;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.contact_touch{
+    padding: 0px 30px;
+    width: 50%;
+}
+
+.contact_work-heading{
+    text-align: center;
+    font-size: 32px;
+    font-family: "trip-500";
+    font-weight: 200;
+    color: #333333;
+    text-align: center;
+}
+
+.contact-btn{
+    width: 30%;
+    border: 1px solid rgba(0, 0, 0, 0.2);;
+    text-align: center;
+    border-radius: 8px;
+    margin: auto;
+    color: black;
+    padding: 15px 25px;
+    margin-top: 17px;
+    letter-spacing: 1px;
+}
+
+/* register */
+.register{
+    padding-top: 3rem;
+    border: 1px solid black;
+}
+
+.register__header{
+    text-align: center;
+}
+
+.register__header--first{
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #7e8085;
+    font-family: "trip-500";
+}
+
+.register__header--second{
+    font-size: 32px;
+    font-family: "trip-500";
+}
+
+.register__row{
+    margin-top: 3rem;
+    display: flex;
+}
+
+.register__card{
+    width: 30%;
+    padding: 40px;
+    background-color: #393939;
+}
+
+.register__card--para{
+    color: white;
+    padding: 20px 0px;
+    font-size: 18px;
+    font-family: "trip-500";
+}
+
+.register__card__row{
+    display: flex;
+}
+
+.register__card__row--word{
+    color: white;
+    font-size: 25px;
+    font-family: "trip-500";
+}
+
+.register__card__row{
+    display: flex;
+}
+
+.register__card__row--img{
+    width: 15px;
+    margin-left: 9px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
+
+.register__card:hover{
+    background-color: #FF7B39;
+}
+
+
+
+
+/* pics */
+.pics{
+    padding-top: 3rem;
+    border: 1px solid black;
+}
+
+.pics__header--first{
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #7e8085;
+    letter-spacing: 2px;
+    font-family: "trip-500";
+}
+
+/* galley */
+
+.gallery{
+    padding: 48px 15px ;
+    border: 1px solid black;
+
+}
+
+.gallery__top{
+    margin-top: 30px;
+}
+
+.gallery__main{
+    margin-bottom: 37px;
+}
+
+.gallery__main--img{
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.gallery__bottom{
+    padding: 0 15px;
+    max-width: 100%;
+}
+
+.bottom__row{
+    margin: 0 -15px;
+    padding: 0 15px;
+    display: flex;
+}
+
+.first{
+    max-width: 50%;
+    padding: 0 15px;
+}
+
+.first__col{
+    margin: 0 -15px;
+    padding: 0 15px;
+    /* max-width: 50%; */
+    /* object-fit: cover; */
+    /* margin: 0 auto; */
+}
+
+.first__col__top{
+    height: 50%;
+    margin-bottom: 30px;
+}
+/* .first__col__top img {
+    height: 20rem;
+} */
+
+.first__col__top--img{
+    /* width: 5px; */
+    /* height: 25rem; */
+    width: 100%;
+    border-radius: 6px;
+}
+
+.first__bottom{
+    /* padding: 0 15px; */
+    height: 50%;
+}
+
+.first__bottom__row{
+    height: 200px;
+    margin: 0 -15px;
+    padding: 0 15px;
+    display: flex;
+    gap: 35px;
+    justify-content: space-around;
+}
+
+.first__bottom__row__gallery{
+    padding: 0 15px;
+    margin: 0 -15px;
+}
+
+.first__bottom__row__gallery{
+    padding: 0 15px;
+    margin: 0 -15px;
+}
+
+.first__bottom__row__gallery--img{
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    /* scale: 0.9; */
+}
+
+.sec__bottom__row__gallery1{
+    padding: 0 15px;
+    margin: 0 -15px;
+    width: 390px;
+}
+
+.sec__first__row{
+    height: 180px;
+    margin: 0 -15px;
+    padding: 0 15px;
+    display: flex;
+    gap: 35px;
+    justify-content: space-around;
+}
+
+.sec__col__bottom--img{
+    /* width: 5px; */
+    /* height: 25rem; */
+    width: 100%;
+    border-radius: 6px;
+    position: relative;
+    top: 65px;
+}
+
+/* footer  */
+
+.foo{
+    padding: 3rem 13px;
+}
+
+.foo__row{
+    display: flex;
+}
+
+.foo__first{
+    width: 25%;
+}
+
+.foo__flex{
+    display: flex;
+    width: 100%;
+    margin-left: 63px;
+}
+
+.foo__c{
+    font-family: "trip-500";
+    color: #B2B2B2;
+}
+
+.foo__content{
+    width: 35%;
+    font-family: "trip-500";
+    color: #B2B2B2;
+    padding: 0 12px;
+}
+
+.foo__heading{
+    padding: 4px 0px;
+    color: black;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.foo_para{
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+/* feedback  */
+
+.feedback{
+    background-color: #FFF8F5;
+}
+
+.fbox{
+    max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 48px 15px;
+    /* margin: 0 100px; */
+    /* justify-content: center; */
+}
+
+.feedback__header{
+    text-align: center;
+}
+
+.section__header--para{
+    font-size: 14px;
+    color: #7E8085;
+    letter-spacing: 1px;
+    font-family: "trip-500";
+}
+
+.section__header-heading{
+    font-size: 32px;
+    margin: 2px 0px;
+}
+
+.feedback__content{
+    margin: auto;
+    padding: 50px;
+}
+
+.feedback__boxes{
+    display: flex;
+    gap: 30px;
+}
+
+.feedback__box{
+    border: 1px solid #B2B2B2;
+    width: 50%;
+    border-radius: 9px;
+    height: 500px;
+    padding: 25px;
+}
+
+.feedback__user{
+    display: flex;
+    justify-content: space-around;
+    padding: 3px;
+    gap: 20px;
+    font-family: "trip-500";
+}
+
+.feedback__details{
+    padding: 5px;
+}
+
+.feedback__user--para{
+    padding: 5px 0;
+    color: #B2B2B2;
+}
+
+.feedback__data{
+    /* width: 100%; */
+    padding: 30px;
+    ine-height: 24px;
+    font-size: 21px;
+    font-style: italic;
+}
+
+.feedback__user--heading{
+    font-size: 17px;
+}
+
+
+/* start  */
+
+.start{
+    background-color: #F1F9FF;
+}
+
+.start__header{
+    padding-top: 3rem;
+    text-align: center;
+    font-family: "trip-500";
+}
+
+.start__header--para{
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #7E8085;
+}
+
+.start__header--heading{
+    font-size: 32px;
+    color: #333333;
+}
+
+.img__box {
+    width: 100%;
+    height: 300px;
+    padding: 30px 0px;
+}
+
+.img__container{
+    width: 100%;
+    /* height: 0px; */
+    margin: auto;
+}
+
+.start--img{
+    /* width: 350px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.start__bottom{
+    padding-bottom: 40px;
+}
+
+.boxes{
+    width: 100%;
+    display: flex;
+    /* gap: 30px; */
+}
+
+.start__box{
+    font-family: "trip-500";
+}
+
+.start__box--bar{
+    height: 10px;
+    background-color: #c8e2f5;
+    border-radius: 20px;
+}
+
+.start__box:hover .start__box--bar {
+    background-color: orange;
+}
+
+
+.start__box__data{
+    padding: 20px;
+}
+
+.start__box__data--heading{
+    font-size: 14px;
+    color: #999999;    
+}
+
+.start__box__data--para{
+    padding-top: 20px;
+    font-size: 12px;
+    color: #666666;
+}
+.flexx{
+    display: flex;
+    align-items: flex-end;
+}
+
+.pad-left{
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .orange{
+    background-color: #FF7B39;
+} */
