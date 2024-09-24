@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* .container{
+    margin: auto;
+} */
+
+.input__entry{
+    height: 20px;
+    padding: 10px;
+    /* width: 100%; */
+}
+
+.btn{
+    /* margin: auto; */
+    font-size: 30px;
+    padding: 20px;
+    color: gray;
+}
+
+
+/* validation  */
+input:invalid:not(:placeholder-shown){
+    border: 1px solid red;
+}
+
+input:valid:not(:placeholder-shown){
+    border: 1px solid rgb(7, 233, 7);
+}
+
+input:invalid ~ button[class="btn"]{
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+
+
+/* email form validation using js  */
+
+.error{
+    height: 20px;
+    padding: 5px;
+    background-color: rgb(244, 197, 197);
+    color: black;
+    letter-spacing: 1px;
+}

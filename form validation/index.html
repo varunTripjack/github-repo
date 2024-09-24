@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="main">
+
+        <!-- required  -->
+        <input type="text" required minlength="3" maxlength="6" placeholder="Enter the username" class="input__entry">
+
+        <!-- type  -->
+        <input type="email" id="email" placeholder="Enter the email"  class="input__entry email">
+        <!-- <div class="error"></div> -->
+
+        <!-- regex Validation  -->
+        <div class="question">Have you entered Details (Yes/No)</div>
+        <input type="text" pattern="Yes|No" placeholder="Enter Yes or No" class="input__entry">
+
+        <button class="btn">Submit</button>
+    </form>
+</body>
+</html>
