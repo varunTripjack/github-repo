@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main__header {
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main__header h1 {
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  color: black;
+}
+.main__header h1:hover {
+  color: aqua;
+}
+.main__header h1::-moz-selection {
+  color: greenyellow;
+}
+.main__header h1::selection {
+  color: greenyellow;
+}
+.main__header p {
+  font-size: 20px;
+  font-style: italic;
+  color: red;
+}
+
+.main__header--2 {
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main__header--2 h1 {
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  color: purple;
+}
+.main__header--2 h1::before {
+  content: "I have used the before psuedo element ";
+  color: brown;
+}
+.main__header--2 h1:hover:before {
+  color: #123;
+}
+.main__header--2 p {
+  font-size: 5px;
+  font-style: italic;
+  color: magenta;
+}
+.main__header--2 p::after {
+  content: "I have used after psuedo element";
+  color: red;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,20 @@
+@mixin commonCodeForHeader{
+    height: 100vh - 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@mixin commonCodeForHeading($fontColor){
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: $fontColor;
+}
+
+@mixin commonCodeForPara($fontSize, $fontColor){
+    font-size: $fontSize;
+    font-style: italic;
+    color: $fontColor;
+}

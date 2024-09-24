@@ -1,0 +1,52 @@
+@import "mixin";
+
+*{
+     margin: 0;
+     padding: 0;
+}
+
+
+.main__header{
+    @include commonCodeForHeader;
+
+    h1{
+        @include commonCodeForHeading(black);
+        &:hover{
+            color: aqua;
+        }
+        &::selection{
+            color: greenyellow;
+        }
+    }
+
+    p{
+        @include commonCodeForPara(20px, red);
+
+    }
+}
+
+.main__header--2{
+    @include commonCodeForHeader;
+
+    h1{
+        @include commonCodeForHeading(purple);
+        &::before{
+            content: "I have used the before psuedo element ";
+            color: brown;
+            
+        }
+        &:hover:before{
+            color: #123;
+        }
+    }
+
+    p{
+        @include commonCodeForPara(5px, magenta);
+        &::after{
+            content: "I have used after psuedo element";
+            color: red;
+        }
+
+    }
+
+}
