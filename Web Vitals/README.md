@@ -36,6 +36,8 @@
 
 - Html, css, js minification.
 
+### There are other vitals such as Time to First Byte (TTFB) and First Contentful Paint (FCP) which are directly tell us about the loading issues and related to Largest Contentful Paint (LCP).
+
 # First Input Delay
 - User ke First input ke response ke time se calculate hota hai
 - ye user ke data vagera se calculate nhi hota hai 

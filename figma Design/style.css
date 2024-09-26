@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color:#2F52E0;
+    width: 100vw;
+    display: flex;
+}
+
+.header__box1{
+    width: 40vw;
+    padding: 20px 30px 20px 10px;
+    background-color: #F2EFEF;
+    border-radius: 0px 20px 20px 0px;
+    
+}
+
+.header__box1--img{
+    width: 100%;
+}
+
+.header__box2{
+    width: 60vw;
+    padding: 15px 15px 15px 40px;
+}
+
+.header__box2--top{
+    display: flex;
+    color: white;
+    height: 40%;
+}
+
+.header__box2--heading{
+    height: 40%;
+    font-size: 40px;
+    padding-left: 10px;
+}
+
+.header__box2--bottom{
+    margin-top: 10px;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 90%;
+}
+
+.header__box2--first{
+    background-color: white;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 6px;
+}
+
+.header__box2--img{
+    height: 80%;
+    padding: 0px 8px 0px 10px;
+}
+
+.header__box2--phone{
+    color: #2F52E0;
+    padding-right: 20px;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.header__box2--second{
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
+
+.header__box2--para{
+    font-size: 20px;
+}
+
+
+
