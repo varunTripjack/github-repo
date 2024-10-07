@@ -1,0 +1,40 @@
+:root{
+    --color-primary: hsl(218, 49%, 43%);
+    --color-primary-light: hsl(218, 49%, 50%); 
+    --color-body: hsl(218, 49%, 95%);
+    --color-text: hsl(218, 20%, 20%);
+}
+
+.dark-mode{
+    --color-primary: hsl(218, 49%, 48%);
+    --color-primary-light: hsl(218, 49%, 60%); 
+    --color-body: hsl(218, 49%, 10%);
+    --color-text: hsl(218, 20%, 90%);
+}
+
+body{
+    background-color: var(--color-body);
+}
+
+h2{
+    color: var(--color-primary);
+}
+
+p{
+    color:  var(--color-text);
+}
+
+.toggle-theme{
+    border: none;
+    outline: none;
+    font-size: inherit;
+    padding: 1rem 1.5rem;
+    background-color: var(--color-primary);
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s background;
+}
+
+.toggle-theme:hover{
+    background-color: var(--color-primary-light) ;
+}
