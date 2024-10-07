@@ -1,16 +1,13 @@
 const formEntry = document.querySelector(".card__form");
 const formInput = document.querySelector(".card__form input[type='text']");
-
 const NameField = document.querySelector(".response__output--name");
 const tempField = document.querySelector(".response__output--temp");
 const humidityField = document.querySelector(".response__output--humidity");
-
 
 function applyLocalStorage(){
     const cityStored = localStorage.getItem('cityName');
     fetchData(cityStored);
 }
-
 
 async function fetchData(city){
     try {
