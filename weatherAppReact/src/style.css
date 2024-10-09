@@ -1,0 +1,33 @@
+.container{
+    padding: 1rem;
+    width: 70vw;
+    margin: auto;
+    background-color: aqua;
+    text-align: center;
+}
+
+.form__container{
+    font-size: 2rem;
+}
+.form__container input{
+    font-size: 1.5rem;
+    padding: 0.4rem;
+    margin-left: 10px;
+}
+
+.info__container{
+    height: 30vh;
+    background-color: rgb(194, 247, 247);
+}
+
+.temp{
+    font-size: 2rem;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.humidity{
+    font-size: 2rem;
+    padding: 1rem;
+    margin-top: 1rem;
+}
