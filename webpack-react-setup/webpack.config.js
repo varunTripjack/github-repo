@@ -1,7 +1,12 @@
 const path = require('path');
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   entry: path.resolve(__dirname, './src/index.js'),
+  output: {
+    path: path.resolve(__dirname, './public'),
+    filename: 'bundle.js',
+  },
   module: {
     rules: [
       {
@@ -9,17 +14,22 @@ module.exports = {
         exclude: /node_modules/,
         use: ['babel-loader'],
       },
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
+      },
     ],
   },
   resolve: {
-    extensions: ['*', '.js', '.jsx'],
-  },
-  output: {
-    path: path.resolve(__dirname, './public'),
-    filename: 'bundle.js',
+    extensions: ['*', '.js', '.jsx', '.css'],
   },
   devServer: {
     static: path.resolve(__dirname, './public'),
     port: 5000
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: "./public/index.html", 
+    }),
+  ],
 };

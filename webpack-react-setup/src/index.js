@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from './components/Home';
+import Counter from './components/Counter';
 
 ReactDOM.render(
-  <Home/>,
+  <Counter/>,
   document.getElementById('app')
 );
