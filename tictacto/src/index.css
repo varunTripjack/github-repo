@@ -1,0 +1,68 @@
+.body{
+  margin: 20px;
+}
+
+ol, ul{
+  padding-left: 20px;
+}
+
+board-row:after{
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status{
+  margin-bottom: 10px;
+}
+
+.square{
+  background-color: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  border-image-width: 34px;
+}
+
+.square:focus{
+  outline: none;
+}
+
+
+.kbd-navigation .square:focus{
+  background: #ddd;
+}
+
+
+.game{
+   display: flex; 
+   flex-direction: row;
+   /* background-color: blue; */
+}
+
+.game-info{
+    margin-left: 20px;
+}
+
+
+.chance{
+  /* margin-bottom: 10px; */
+  padding: 0.5rem;
+  font-size: 10px;
+}
+
+.reset_btn{
+  padding: 4px;
+  font-size: 10px;
+  margin-left: 15px;
+  border: none;
+}
+ 
